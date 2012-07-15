@@ -1,0 +1,203 @@
+# EESchema Netlist Version 1.1 created  Пнд 09 Июл 2012 18:34:40
+(
+ ( /4FE465B7 SM0805 C101 C
+  ( 1 N-000022 )
+  ( 2 GND )
+ )
+ ( /4FE465BA SM0805 C102 C
+  ( 1 N-000010 )
+  ( 2 GND )
+ )
+ ( /4FE466A3 C1V7 C103 100uF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /4FE46919/4FC0F82B SM1206 D201 3v6
+  ( 1 GND )
+  ( 2 /avr_usb/DM )
+ )
+ ( /4FE46919/4FC0F832 SM1206 D202 3v6
+  ( 1 GND )
+  ( 2 /avr_usb/DP )
+ )
+ ( /4FE46535 SO20L IC101 ATTINY2313-P
+  ( 1 /RST )
+  ( 2 /S8 )
+  ( 3 /S9 )
+  ( 4 N-000022 )
+  ( 5 N-000010 )
+  ( 6 /avr_usb/MCU_INT )
+  ( 7 /avr_usb/MCU_DP )
+  ( 8 /S10 )
+  ( 9 /S11 )
+  ( 10 GND )
+  ( 11 /S12 )
+  ( 12 /S0 )
+  ( 13 /S1 )
+  ( 14 /S2 )
+  ( 15 /S3 )
+  ( 16 /S4 )
+  ( 17 /S5 )
+  ( 18 /S6 )
+  ( 19 /S7 )
+  ( 20 VCC )
+ )
+ ( /4FE46662 JACK_ALIM_SMALL JACK_101 SERVO_PWR
+  ( 1 +5V )
+  ( 2 GND )
+  ( 3 GND )
+ )
+ ( /4FE46687 SIL-2 JP101 JUMPER
+  ( 1 +5V )
+  ( 2 VCC )
+ )
+ ( /4FFAE72D PINHEAD1-3 K101 CONN_3
+  ( 1 /S0 )
+  ( 2 +5V )
+  ( 3 GND )
+ )
+ ( /4FFAE721 PINHEAD1-3 K102 CONN_3
+  ( 1 /S1 )
+  ( 2 +5V )
+  ( 3 GND )
+ )
+ ( /4FFAE726 PINHEAD1-3 K103 CONN_3
+  ( 1 /S2 )
+  ( 2 +5V )
+  ( 3 GND )
+ )
+ ( /4FFAE729 PINHEAD1-3 K104 CONN_3
+  ( 1 /S3 )
+  ( 2 +5V )
+  ( 3 GND )
+ )
+ ( /4FFAE72C PINHEAD1-3 K105 CONN_3
+  ( 1 /S4 )
+  ( 2 +5V )
+  ( 3 GND )
+ )
+ ( /4FFAE71E PINHEAD1-3 K106 CONN_3
+  ( 1 /S5 )
+  ( 2 +5V )
+  ( 3 GND )
+ )
+ ( /4FFAE719 PINHEAD1-3 K107 CONN_3
+  ( 1 /S6 )
+  ( 2 +5V )
+  ( 3 GND )
+ )
+ ( /4FFAE716 PINHEAD1-3 K108 CONN_3
+  ( 1 /S7 )
+  ( 2 +5V )
+  ( 3 GND )
+ )
+ ( /4FFAE713 PINHEAD1-3 K109 CONN_3
+  ( 1 /S8 )
+  ( 2 +5V )
+  ( 3 GND )
+ )
+ ( /4FE466D0 PINHEAD1-3 K110 CONN_3
+  ( 1 /S9 )
+  ( 2 +5V )
+  ( 3 GND )
+ )
+ ( /4FFAE703 PINHEAD1-3 K111 CONN_3
+  ( 1 /S10 )
+  ( 2 +5V )
+  ( 3 GND )
+ )
+ ( /4FFAE708 PINHEAD1-3 K112 CONN_3
+  ( 1 /S11 )
+  ( 2 +5V )
+  ( 3 GND )
+ )
+ ( /4FFAE70C PINHEAD1-3 K113 CONN_3
+  ( 1 /S12 )
+  ( 2 +5V )
+  ( 3 GND )
+ )
+ ( /4FE4653B R4 R101 10k
+  ( 1 /RST )
+  ( 2 VCC )
+ )
+ ( /4FE46919/4FC0F903 SM0805 R201 1k5
+  ( 1 VCC )
+  ( 2 /avr_usb/MCU_INT )
+ )
+ ( /4FE46919/4FC0F8A2 SM0805 R202 68
+  ( 1 /avr_usb/MCU_INT )
+  ( 2 /avr_usb/DM )
+ )
+ ( /4FE46919/4FC0F89B SM0805 R203 68
+  ( 1 /avr_usb/MCU_DP )
+  ( 2 /avr_usb/DP )
+ )
+ ( /4FE46585 HC-49V X101 CRYSTAL
+  ( 1 N-000022 )
+  ( 2 N-000010 )
+ )
+ ( /4FE469A4 con-usb-2-USB-MB-S X102 USB-MB-S
+  ( D+ /avr_usb/DP )
+  ( D- /avr_usb/DM )
+  ( GND GND )
+  ( ID ? )
+  ( VBUS VCC )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C101
+ SM*
+ C?
+ C1-1
+$endlist
+$component C102
+ SM*
+ C?
+ C1-1
+$endlist
+$component C103
+ SM*
+ C?
+ C1-1
+$endlist
+$component D201
+ D?
+ SO*
+ SM*
+$endlist
+$component D202
+ D?
+ SO*
+ SM*
+$endlist
+$component R101
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R201
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R202
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R203
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
