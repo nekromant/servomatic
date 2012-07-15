@@ -1,0 +1,5 @@
+config START_DELAY
+int "USB enumeration delay (ms)"
+
+config NO_SEATBELTS
+bool "Disable some internal checks - save RAM"
