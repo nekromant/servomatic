@@ -1,4 +1,4 @@
-update=Пнд 11 Июн 2012 16:27:02
+update=Птн 22 Июн 2012 16:57:20
 last_client=pcbnew
 [eeschema]
 version=1
@@ -64,6 +64,7 @@ LibName29=contrib
 LibName30=valves
 LibName31=libs/powerjack
 LibName32=libs/GS6300
+LibName33=/home/necromant/Dev/hardware/trasformatic/libs/miniusb
 [cvpcb]
 version=1
 NetIExt=net
